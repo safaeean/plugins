@@ -1607,7 +1607,7 @@ button, input, select, textarea, label {
     content: '';
     width: 16px;
     height: 12px;
-    margin-right: 16px;
+    margin-left: 16px;
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUuNiA2LjRMMS42IDQgMCA1LjYgNS42IDEyIDE2IDEuNiAxNC40IDB6IiBmaWxsPSIjMDJDQkIxIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=);
     background-repeat: no-repeat
 }
@@ -1708,7 +1708,8 @@ main {
 .section-inner {
     position: relative;
     padding-top: 48px;
-    padding-bottom: 48px
+    padding-bottom: 48px;
+    direction: rtl;
 }
 
 @media (min-width: 641px) {
