@@ -7,7 +7,11 @@ if (!file_exists($file)) {
 $database = json_decode(file_get_contents($file), true);
 if ($data = $database[$_REQUEST['domain']][$_REQUEST['product_id']]) {
     if ($data['expire'] == 'unlimited' || $data['expire'] > time()) {
-        echo "true";
+        if($_REQUEST['request_demo']){
+            echo "شما لایسنس فعال دارید.";
+        }else{
+            echo "true";
+        }
         exit;
     }
 }
