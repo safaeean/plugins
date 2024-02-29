@@ -1,7 +1,8 @@
 <?php
 $file = './data.json';
 if (!file_exists($file)) {
-    file_put_contents($file, '{}',0600);
+    file_put_contents($file, '{}');
+    chmod($file,0600);
 }
 $database = json_decode(file_get_contents($file), true);
 if ($data = $database[$_REQUEST['domain']][$_REQUEST['product_id']]) {
