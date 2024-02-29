@@ -311,7 +311,7 @@ body {
 }
 
 body, button, input, select, textarea {
-    font-family: "IBM Plex Sans", sans-serif
+    font-family: "Noto Sans Arabic", sans-serif;
 }
 
 a {
