@@ -15,7 +15,7 @@ if ($data = $database[$_REQUEST['domain']][$_REQUEST['product_id']]) {
         exit;
     }
 }
-if (filter_var($_REQUEST['domain'], FILTER_VALIDATE_DOMAIN)) {
+if (filter_var($_REQUEST['domain'], FILTER_VALIDATE_DOMAIN, FILTER_FLAG_HOSTNAME)) {
     if ($_REQUEST['request_demo']) {
         if (!$database[$_REQUEST['domain']][$_REQUEST['product_id']]['request_demo']) {
             $database[$_REQUEST['domain']] = [];
