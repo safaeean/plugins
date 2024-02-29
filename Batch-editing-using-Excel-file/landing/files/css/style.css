@@ -45,7 +45,6 @@ abbr[title] {
     border-bottom: none;
     text-decoration: underline;
     -webkit-text-decoration: underline dotted;
-    text-decoration: underline dotted
 }
 
 b, strong {
@@ -333,42 +332,42 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 h1, .h1 {
     font-size: 38px;
     line-height: 48px;
-    letter-spacing: 0px
+    letter-spacing: 0
 }
 
 @media (min-width: 641px) {
     h1, .h1 {
         font-size: 44px;
         line-height: 54px;
-        letter-spacing: 0px
+        letter-spacing: 0
     }
 }
 
 h2, .h2 {
     font-size: 32px;
     line-height: 42px;
-    letter-spacing: 0px
+    letter-spacing: 0
 }
 
 @media (min-width: 641px) {
     h2, .h2 {
         font-size: 38px;
         line-height: 48px;
-        letter-spacing: 0px
+        letter-spacing: 0
     }
 }
 
 h3, .h3, blockquote {
     font-size: 24px;
     line-height: 34px;
-    letter-spacing: 0px
+    letter-spacing: 0
 }
 
 @media (min-width: 641px) {
     h3, .h3, blockquote {
         font-size: 32px;
         line-height: 42px;
-        letter-spacing: 0px
+        letter-spacing: 0
     }
 }
 
@@ -382,7 +381,7 @@ h4, h5, h6, .h4, .h5, .h6 {
     h4, h5, h6, .h4, .h5, .h6 {
         font-size: 24px;
         line-height: 34px;
-        letter-spacing: 0px
+        letter-spacing: 0
     }
 }
 
@@ -390,19 +389,19 @@ h4, h5, h6, .h4, .h5, .h6 {
     .h1-mobile {
         font-size: 38px;
         line-height: 48px;
-        letter-spacing: 0px
+        letter-spacing: 0
     }
 
     .h2-mobile {
         font-size: 32px;
         line-height: 42px;
-        letter-spacing: 0px
+        letter-spacing: 0
     }
 
     .h3-mobile {
         font-size: 24px;
         line-height: 34px;
-        letter-spacing: 0px
+        letter-spacing: 0
     }
 
     .h4-mobile, .h5-mobile, .h6-mobile {
@@ -488,7 +487,6 @@ pre, code, kbd, tt, var {
 pre {
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 1.6em;
     max-width: 100%;
     overflow: auto;
     padding: 24px;
@@ -568,7 +566,7 @@ button, input, select, textarea, label {
     clip: auto !important;
     display: block;
     font-size: 14px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     font-weight: 600;
     line-height: 16px;
     text-decoration: none;
@@ -1103,7 +1101,7 @@ button, input, select, textarea, label {
 .button {
     display: inline-flex;
     font-size: 14px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     font-weight: 600;
     line-height: 16px;
     text-decoration: none !important;
@@ -1184,7 +1182,6 @@ button, input, select, textarea, label {
 
 .header-links a:not(.button) {
     font-size: 16px;
-    line-height: 24px;
     letter-spacing: -0.1px;
     font-weight: 600;
     color: #8A94A7;
@@ -1697,7 +1694,6 @@ button, input, select, textarea, label {
     max-width: 1440px;
     margin: 0 auto;
     box-shadow: 0 24px 48px rgba(21, 24, 29, 0.24);
-    mix-blend-mode: multiply;
     mix-blend-mode: normal
 }
 
@@ -1722,7 +1718,7 @@ main {
 .site-footer {
     font-size: 14px;
     line-height: 22px;
-    letter-spacing: 0px
+    letter-spacing: 0
 }
 
 .site-footer a {
