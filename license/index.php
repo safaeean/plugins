@@ -6,7 +6,7 @@ if (!file_exists($file)) {
 $database = json_decode(file_get_contents($file), true);
 if ($data = $database[$_REQUEST['domain']][$_REQUEST['product_id']]) {
     if ($data['expire'] == 'unlimited' || $data['expire'] > time()) {
-        echo true;
+        echo "true";
         exit;
     }
 } else {
@@ -14,5 +14,5 @@ if ($data = $database[$_REQUEST['domain']][$_REQUEST['product_id']]) {
     $database[$_REQUEST['domain']][$_REQUEST['product_id']] = ['expire' => time()];
     file_put_contents($file, json_encode($database));
 }
-echo false;
+echo "false";
 exit;
